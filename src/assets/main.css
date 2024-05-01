@@ -1,0 +1,58 @@
+@import './font.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+body {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    background-color: black;
+  }
+
+#app {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+
+    padding: 0;
+}
+
+.title{
+  font-family: 'ALS Hauss', 'Arial', sans-serif;
+  font-size: 50px;
+  color: white;
+
+  margin: 50px 0;
+}
+
+.text{
+    font-family: 'ALS Hauss', 'Arial', sans-serif;
+    font-size: 25px;
+    color: white;
+  
+    margin: 50px 0;
+}
+
+.url{
+    font-family: 'ALS Hauss', 'Arial', sans-serif;
+    font-size: 25px;
+    color: rgb(193, 251, 255);
+  
+    margin: 50px 0;
+}
+
+.url:hover{
+  cursor: pointer;
+}
